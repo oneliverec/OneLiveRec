@@ -157,3 +157,30 @@ More platforms are continuously added and improved.
 See the complete installation guide:
 
 https://docs.oneliverec.cc/getting-started/installation/
+
+# Quick Start
+
+1. Install OneLiveRec
+2. Add live channels
+
+OneLiveRec will automatically detect live streams and record them according to your configuration.
+
+---
+
+# Use Cases
+
+## Live Stream Archiving
+
+Automatically save broadcasts from your favorite channels.
+
+## Content Monitoring
+
+Monitor multiple creators and record when they go live.
+
+## Community Archives
+
+Build your own long-term live stream archive.
+
+## Automated Recording Systems
+
+Integrate OneLiveRec into existing workflows with webhooks.
