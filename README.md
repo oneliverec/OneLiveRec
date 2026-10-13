@@ -1,5 +1,8 @@
 # OneLiveRec
 
+🌐 Language:
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 <p align="center">
   <b>A powerful and reliable live stream recorder</b><br/>
   Automatically record, manage, and archive live streams from hundreds of platforms.
