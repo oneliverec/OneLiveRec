@@ -1,0 +1,18 @@
+name: oneliverec
+
+services:
+  orec:
+    image: ghcr.io/oneliverec/orec:latest
+    restart: unless-stopped
+    ports:
+      - 5202:5202
+    volumes:
+      - ${PWD}:/app
+      - /etc/machine-id:/etc/machine-id:ro
+    environment:
+      - TZ=${TZ:-UTC}
+      - PUID=${PUID:-0}
+      - PGID=${PGID:-0}
+      - UMASK=${UMASK:-002}
+      - OREC_USERNAME=${OREC_USERNAME?error}
+      - OREC_PASSWORD=${OREC_PASSWORD?error}
